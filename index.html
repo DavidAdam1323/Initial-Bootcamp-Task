@@ -4,45 +4,78 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Airbnb | Holiday rentals, cabins, beach house & more</title>
-    <link rel="stylesheet" href="Styles_Clone.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <header>
       <!--Search Bar-->
       <button class="pill-button">
-        <a class="search_icon">
-          <ion-icon name="search-sharp" size="large"></ion-icon>
-        </a>
-        <input type="text" placeholder="Anywhere" />
+        <i class="lupa">
+          <ion-icon name="search-outline" size="large"></ion-icon>
+        </i>
+        <div class="search-bar">
+          <span class="line1">Anywhere</span>
+          <br />
+          <span class="line2">Anyweek · Add guests</span>
+        </div>
       </button>
       <!--Filter Button-->
       <button class="filter">
-        <a class="filter_button">
-          <ion-icon name="options-outline"></ion-icon>
-        </a>
+        <i class="fas fa-options"><ion-icon name="options"></ion-icon></i>
       </button>
       <!-- Navigation Bar-->
-      <ul class="nav-links">
+      <ul class="icon-list">
         <li>
-          <a class="home"><ion-icon name="home-outline"></ion-icon></a>
+          <i class="fas fa-home"><ion-icon name="home-outline"></ion-icon></i>
+          <span>Homes</span>
         </li>
         <li>
-          <a class="treding"><ion-icon name="flame-outline"></ion-icon></a>
+          <i class="fas fa-treding"
+            ><ion-icon name="flame-outline"></ion-icon
+          ></i>
+          <span>Treding</span>
         </li>
         <li>
-          <a class="creative_spaces"
+          <i class="fas fa-creative"
             ><ion-icon name="color-palette-outline"></ion-icon
-          ></a>
+          ></i>
+          <span>Creative spaces</span>
         </li>
         <li>
-          <a class="artic"><ion-icon name="snow-outline"></ion-icon></a>
+          <i class="fas fa-arctic"><ion-icon name="snow-outline"></ion-icon></i>
+          <pan>Arctic</pan>
         </li>
         <li>
-          <a class="store"><ion-icon name="storefront-outline"></ion-icon></a>
+          <i class="fas fa-store"
+            ><ion-icon name="storefront-outline"></ion-icon
+          ></i>
+          <span>Stores</span>
         </li>
       </ul>
     </header>
+
+    <!--Bottom Bar Style-->
+    <ul class="icon-bottom">
+      <li>
+        <i class="fas fa-explore"
+          ><ion-icon name="search-outline"></ion-icon
+        ></i>
+        <span>Explore</span>
+      </li>
+      <li>
+        <i calss="fas fa-wishlists"
+          ><ion-icon name="heart-outline"></ion-icon
+        ></i>
+        <span>Wishlists</span>
+      </li>
+      <li>
+        <i class="fas fa-Login"
+          ><ion-icon name="person-circle-outline"></ion-icon
+        ></i>
+        <span>Log in</span>
+      </li>
+    </ul>
 
     <script
       type="module"
