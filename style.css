@@ -1,3 +1,37 @@
+/* Reset default margin and padding */
+body, header, footer, div {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background colors and heights */
+header {
+  background-color: #f2f2f2;
+  height: 150px;
+}
+
+.content {
+  background-color: #e6e6e6;
+  min-height: 400px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  height: 50px;
+}
+
+/* Center text in header and footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add some spacing and styling to the content */
+.content {
+  padding: 20px;
+}
+
 /*Button Container*/
 .button-container {
   display: flex;
@@ -13,6 +47,7 @@
   padding: 10px 75px;
   box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
   border: none;
+  margin: 20px;
 }
 
 .fa-icon {
@@ -37,7 +72,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 2px solid rgb(150, 150, 150);
+  border: 2px solid lightgray;
   background-color: white; 
   display: flex;
   justify-content: center;
